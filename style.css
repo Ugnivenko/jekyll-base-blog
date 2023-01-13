@@ -17,3 +17,13 @@ section {
    text-transform: uppercase;
    background-color: lightgray;
 }
+
+.tag {
+    border: 1px solid;
+    color: grey;
+    border-radius: 3px;
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.25rem;
+    background-color: white;
+ }
