@@ -15,10 +15,14 @@ section {
     padding: 0;
 }
 
+.center {text-align: center;}
+
 .padded-1 { padding: 1rem; }
 .padded-03 { padding: 0.3rem;}
 
 .margin-b-1 {margin-bottom: 1rem;}
+
+.tall-80 { min-height: 78vh;}
 
 .intro {
    text-transform: uppercase;
