@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post-layout
 title: My first post
 description: Trip to Bali and Java. Amazing time with my beloved friend. 
 author: Lana

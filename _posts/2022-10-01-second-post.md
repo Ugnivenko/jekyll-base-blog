@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post-layout
 title: My second post
 description: Traveling after being lockdown in China.
 author: Vicky

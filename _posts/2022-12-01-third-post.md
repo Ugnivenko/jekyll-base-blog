@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post-layout
 title: My third post
 description: Back to routine and family reunion. 
 author: Catherine
