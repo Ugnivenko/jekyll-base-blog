@@ -11,7 +11,14 @@ section {
    border: 1px solid rgb(186, 184, 184);
 }
 
+[class*="col-"], [class*="col_"], [class~="col"] {
+    padding: 0;
+}
+
 .padded-1 { padding: 1rem; }
+.padded-03 { padding: 0.3rem;}
+
+.margin-b-1 {margin-bottom: 1rem;}
 
 .intro {
    text-transform: uppercase;
@@ -28,6 +35,19 @@ section {
     background-color: white;
  }
 
+ .recent-posts {
+    display: block;
+    color: inherit;
+    text-decoration: none;
+ }
+ .recent-posts:hover {color: rgb(108, 108, 145);}
+
+ .card-click {
+    text-decoration: none;
+    color: inherit;
+ }
+.card { border: 1px solid grey; 
+}
  /* Background Image Styles */
 .bg-image {
     background-size: cover;
