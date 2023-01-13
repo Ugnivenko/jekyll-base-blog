@@ -27,3 +27,12 @@ section {
     padding: 0.25rem;
     background-color: white;
  }
+
+ /* Background Image Styles */
+.bg-image {
+    background-size: cover;
+    background-position: center;
+ }
+ 
+ .square { padding-bottom: 100%; }
+ .landscape { padding-bottom: 60%; }
