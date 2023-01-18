@@ -1,13 +1,13 @@
 ---
 layout: post-layout
 title: My first post
-description: Trip to Bali and Java. Amazing time with my beloved friend. 
-author: Lana
-categories: [travel, Indonesia]
-featured_image: https://www.instituteofcode.com/houdini.jpg
+description: Traveling to Thailand.
+author: Vicky
+categories: [travel, thailand]
+featured_image: /images/zen-studio-3.jpg
 ---
 
-## Adventures in Bali
+## Back To Traveling
 
 Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis nostrum maiores, necessitatibus explicabo cum officiis deserunt ea reprehenderit in quod corporis adipisci voluptatum. Voluptatum rem alias quaerat deleniti minima pariatur.
 

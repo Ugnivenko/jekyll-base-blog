@@ -1,13 +1,13 @@
 ---
 layout: post-layout
-title: My third post
-description: Back to routine and family reunion. 
-author: Catherine
-categories: [self care, home] 
+title: My sixth post
+description: Amazing time with my beloved friend. 
+author: Lana
+categories: [home, self care]
 featured_image: https://www.instituteofcode.com/houdini.jpg
 ---
 
-## Home Sweet Home
+## How to appeciate each moment 
 
 Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis nostrum maiores, necessitatibus explicabo cum officiis deserunt ea reprehenderit in quod corporis adipisci voluptatum. Voluptatum rem alias quaerat deleniti minima pariatur.
 

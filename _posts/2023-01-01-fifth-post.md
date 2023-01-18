@@ -1,13 +1,13 @@
 ---
 layout: post-layout
-title: My third post
-description: Back to routine and family reunion. 
-author: Catherine
-categories: [self care, home] 
+title: My fifth post
+description: Trip to Bali and Java. Amazing time with my beloved friend. 
+author: Lana
+categories: [travel, Bali]
 featured_image: https://www.instituteofcode.com/houdini.jpg
 ---
 
-## Home Sweet Home
+## Adventures in Bali
 
 Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis nostrum maiores, necessitatibus explicabo cum officiis deserunt ea reprehenderit in quod corporis adipisci voluptatum. Voluptatum rem alias quaerat deleniti minima pariatur.
 

@@ -1,13 +1,13 @@
 ---
 layout: post-layout
-title: My third post
-description: Back to routine and family reunion. 
-author: Catherine
-categories: [self care, home] 
-featured_image: https://www.instituteofcode.com/houdini.jpg
+title: My forth post
+description: Food around the world
+author: Vicky
+categories: [travel, food]
+featured_image: /images/zen-studio-3.jpg
 ---
 
-## Home Sweet Home
+## Hello World
 
 Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis nostrum maiores, necessitatibus explicabo cum officiis deserunt ea reprehenderit in quod corporis adipisci voluptatum. Voluptatum rem alias quaerat deleniti minima pariatur.
 
