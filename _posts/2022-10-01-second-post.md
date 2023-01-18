@@ -3,8 +3,15 @@ layout: post-layout
 title: My second post
 description: Traveling after being lockdown in China.
 author: Vicky
+featured: true
 categories: [self care, bali]
 featured_image: /images/zen-studio-3.jpg
+seo:
+  title:
+  description:
+  social_image:
+  keywords:
+  hide-from-google: false
 ---
 
 ## Baliness beauty tips

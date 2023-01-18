@@ -3,14 +3,17 @@ layout: default
 title: Homepage
 ---
 
-<section>
+<section class="padded">
+   <div class="padded-b-1"> 
+      <h1>Welcome to your homepage!</h1>
+      <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum corporis sapiente explicabo cumque beatae exercitationem vitae? Fugit consequuntur tempore temporibus ex, magnam, dolor dolores, error ea dignissimos cupiditate doloribus hic.</p>
+   </div>
+  <div> 
+      <h3> Our recent posts </h3>
+      {% for post in site.posts limit:3 %}
 
-   <h1>Welcome to your homepage!</h1>
+         <a class="tag" href="{{post.url}}"> {{post.title}}</a>
 
-   {% for post in site.posts %}
-
-        <a href="{{post.url}}"> {{post.title}}</a>
-
-   {% endfor %}
-
+      {% endfor %}
+  </div>
 </section>

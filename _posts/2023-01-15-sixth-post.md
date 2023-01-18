@@ -3,8 +3,15 @@ layout: post-layout
 title: My sixth post
 description: Amazing time with my beloved friend. 
 author: Lana
+featured: false
 categories: [home, self care]
 featured_image: https://www.instituteofcode.com/houdini.jpg
+seo:
+  title:
+  description:
+  social_image:
+  keywords:
+  hide-from-google: false
 ---
 
 ## How to appeciate each moment 

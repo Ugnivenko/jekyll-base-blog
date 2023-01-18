@@ -1,10 +1,17 @@
 ---
 layout: post-layout
-title: My fifth post
+title: My seventh post
 description: Trip to Bali and Java. Amazing time with my beloved friend. 
 author: Mike
+featured: true
 categories: [travel, food]
 featured_image: https://www.instituteofcode.com/houdini.jpg
+seo:
+  title:
+  description:
+  social_image:
+  keywords:
+  hide-from-google: false
 ---
 
 ## Best restaurants to visit in Hong Kong 

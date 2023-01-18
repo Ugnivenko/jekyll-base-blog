@@ -17,12 +17,17 @@ section {
 
 .center {text-align: center;}
 
+.padded { padding: 5%;}
 .padded-1 { padding: 1rem; }
 .padded-03 { padding: 0.3rem;}
 
+.padded-b-1 { padding-bottom: 1rem;}
+.padded-t-1 { padding-top: 1rem;}
+
 .margin-b-1 {margin-bottom: 1rem;}
 
-.tall-80 { min-height: 78vh;}
+.tall-80 { min-height: 80vh;}
+.tall-90 { min-height: 90vh;}
 
 .intro {
    text-transform: uppercase;
@@ -35,6 +40,7 @@ section {
     border-radius: 3px;
     display: inline-block;
     margin-top: 1rem;
+    margin-bottom: 1rem;
     padding: 0.25rem;
     background-color: white;
  }
@@ -57,6 +63,12 @@ section {
     background-size: cover;
     background-position: center;
  }
+ .bg-studio { background-image: url(/images/zen-studio-3.jpg);}
  
  .square { padding-bottom: 100%; }
  .landscape { padding-bottom: 60%; }
+
+ .capped-width-narrow {
+   max-width: 1000px;
+   margin: auto;
+}

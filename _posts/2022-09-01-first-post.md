@@ -3,8 +3,15 @@ layout: post-layout
 title: My first post
 description: Traveling to Thailand.
 author: Vicky
+featured: true
 categories: [travel, thailand]
 featured_image: /images/zen-studio-3.jpg
+seo:
+  title:
+  description:
+  social_image:
+  keywords:
+  hide-from-google: false
 ---
 
 ## Back To Traveling

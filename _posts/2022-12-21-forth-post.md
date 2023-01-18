@@ -3,8 +3,15 @@ layout: post-layout
 title: My forth post
 description: Food around the world
 author: Vicky
+featured: true
 categories: [travel, food]
 featured_image: /images/zen-studio-3.jpg
+seo:
+  title:
+  description:
+  social_image:
+  keywords:
+  hide-from-google: false
 ---
 
 ## Hello World
