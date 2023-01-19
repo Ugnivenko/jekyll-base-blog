@@ -6,7 +6,7 @@ title: Blog Page
 <section class="padded">
     <div class="capped-width grid-center">
 
-    {% for post in site.posts %}
+    {% for post in site.posts limit: 3 %}
  
     <div class="col-4_xs-12 padded-1 "> 
         <div class="card tall-90"> 
@@ -15,7 +15,7 @@ title: Blog Page
             <div class="bg-image square" style="background-image: url('{{post.featured_image}}')"></div>
 
             <div class="padded-1">
-
+                
                 {% for item in post.categories %}
                 <span class="tag"> {{ item }} </span>
                 {% endfor %}

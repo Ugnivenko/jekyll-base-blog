@@ -1,5 +1,5 @@
 collection:
-  archive:
+  archives:
     output: true
   posts:
     output: true
