@@ -33,6 +33,14 @@ section {
    text-transform: uppercase;
    background-color: lightgray;
 }
+.button {
+   border: 1px solid orange;
+   display: inline-block;
+   color: orange;
+   padding: 0.5rem;
+   margin-top: 1.5rem;
+   margin-bottom: 1rem;
+}
 
 .tag {
     border: 1px solid;
