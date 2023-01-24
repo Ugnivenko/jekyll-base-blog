@@ -1,7 +1,7 @@
 ---
 layout: post-layout
 title: My forth post
-description: Food around the world
+description: Food around the world. Jeserunt ea reprehenderit in quod corporis adipisci voluptatum. 
 author: Vicky
 featured: true
 categories: [travel, food]

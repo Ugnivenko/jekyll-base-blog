@@ -3,17 +3,23 @@ layout: default
 title: Blog Page
 ---
 
-<section class="padded">
+<section class=" center capped-width-narrow padded padded-b-0">  
+        <h1 class=" uppercase "> Heading </h1>
+         <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione quasi a quaerat inventore expedita aperiam reprehenderit cumque tenetur accusanet consectetur adipisicing elit. Ratione quasi a quaerat inventore expedita aperiam reprehenderit cumque tenetur accusantium duc. A! Ratione quasi a quaerat. Ynventore expedita aperiam reprehenderit.</p>
+</section>
+
+<!------------------------ Split blog loop (part 1) ------------------------>
+
+<section class="padded ">
     <div class="capped-width grid-center">
 
-    {% for post in site.posts %}
+    {% for post in site.posts limit:3 %}
  
     <div class="col-4_xs-12 padded-1 padded-b-2 "> 
         <div class="card"> 
         <a href="{{post.url}}" class="card-click "> 
-        
             <div class="bg-image square" style="background-image: url('{{post.featured_image}}')"></div>
-
+        </a>
             <div class="padded-1">
                 
                 {% for item in post.categories %}
@@ -24,10 +30,47 @@ title: Blog Page
                 <!-- <p> {{post.description}} </p> -->
                 <a href="{{post.url}}"> Read More </a>
             </div>
-        </a> 
         </div>  
     </div>
  
     {% endfor %}
     </div>
  </section>
+
+ <!------------------------ CTA Banner  ------------------------>
+<section class="bg-dark text-light padded center capped-width"> 
+
+    <div class="capped-width-narrow">
+        <h2> Banner </h2>
+        <p> This is a call-to-action to drive traffic somewhere important </p>
+        <a href="#" class="button-banner"> Let's do this </a>
+    </div>
+
+</section> 
+
+<!------------------------ Split blog loop (part 2) ------------------------>
+<section class="padded">
+
+    <div class="capped-width grid-center">
+
+        {% for post in site.posts limit:6 offset:3 %}
+
+                {% include post-loop-item-square.html %}
+
+        {% endfor %}
+
+    </div>
+
+
+    <!-- This checks if there are more than 15 blog posts, and if there are shows a link to the full blog archive -->
+
+    {% assign post_count = site.posts | size %}
+    
+    {% if post_count > 15 %}
+        <div class="center padded">
+            <a class="button" href="/blog-archive"> See More </a>
+        </div>
+       
+    {% endif %}
+
+</section>

@@ -1,7 +1,7 @@
 ---
 layout: post-layout
 title: My sixth post
-description: Amazing time with my beloved friend. 
+description: Amazing time with my beloved friend. Jeserunt with ea reprehenderit in quod corporis with adipisci voluptatum. 
 author: Lana
 featured: false
 categories: [home, self care]

@@ -7,16 +7,18 @@
     box-sizing: border-box;
 }
 
+body { font-family: font-family: 'Open Sans', sans-serif;}
+
 header,
 footer,
 section {
    padding: 5%;
-   border: 1px solid rgb(186, 184, 184);
+   /* border: 1px solid rgb(186, 184, 184); */
 }
 
 /* Typography  */
 
-h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6 {
    line-height: 1.1;
    margin-bottom: 1rem;
  }
@@ -58,11 +60,13 @@ nav a:hover {color: orange;}
 .padded-1 { padding: 1rem; }
 .padded-03 { padding: 0.3rem;}
 
+.padded-b-0 { padding-bottom: 0rem;}
 .padded-b-1 { padding-bottom: 1rem;}
 .padded-b-2 { padding-bottom: 2rem;}
 .padded-t-1 { padding-top: 1rem;}
 
 .margin-b-1 {margin-bottom: 1rem;}
+.margin-t-1 {margin-top: 1rem;}
 
 .tall-70 { min-height: 70vh;}
 .tall-80 { min-height: 80vh;}
@@ -70,7 +74,6 @@ nav a:hover {color: orange;}
 
 .intro {
    text-transform: uppercase;
-   background-color: lightgray;
 }
 
 .button {
@@ -84,12 +87,21 @@ nav a:hover {color: orange;}
    text-decoration: none;
 }
 
+.button-banner { 
+   margin-top: 0.5rem;
+   display: inline-block;
+   text-decoration: none;
+   line-height: 1;
+   padding: 0.5rem 1.5rem;
+   border: 1px solid;
+}
+
 .tag {
     /* border: 1px solid; */
     color: var(--featured);
     display: inline-block;
     margin-top: 1rem;
-    margin-bottom: 0.6rem;
+    margin-bottom: 1rem;
     margin-right: 0.4rem;
     background-color: white;
     text-transform: uppercase;
@@ -103,12 +115,7 @@ nav a:hover {color: orange;}
  }
  .recent-posts:hover {color: rgb(108, 108, 145);}
 
- .card-click {
-    text-decoration: none;
-    color: inherit;
- }
-.card { border: 1px solid grey; 
-}
+.card {box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;}
 
 /* Dropdown menu / archive */
 

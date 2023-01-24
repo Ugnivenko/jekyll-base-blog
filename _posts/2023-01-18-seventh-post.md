@@ -1,7 +1,7 @@
 ---
 layout: post-layout
 title: My seventh post
-description: Trip to Bali and Java. Amazing time with my beloved friend. 
+description: Trip to Bali and Java. Amazing time with my beloved friend. Jeserunt ea reprehenderit in quod corporis adipisci voluptatum. 
 author: Mike
 featured: true
 categories: [travel, food]

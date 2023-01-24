@@ -1,7 +1,7 @@
 ---
 layout: post-layout
 title: My fifth post
-description: Trip to Bali and Java. Amazing times. 
+description: Trip to Bali and Java. Amazing times. Jeserunt ea reprehenderit.
 author: Lana
 featured: true
 categories: [self care, travel]
