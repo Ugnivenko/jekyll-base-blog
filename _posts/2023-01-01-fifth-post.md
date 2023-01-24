@@ -4,7 +4,7 @@ title: My fifth post
 description: Trip to Bali and Java. Amazing time with my beloved friend. 
 author: Lana
 featured: true
-categories: [travel, Bali]
+categories: [self care, travel]
 featured_image: https://www.instituteofcode.com/houdini.jpg
 seo:
   title:
