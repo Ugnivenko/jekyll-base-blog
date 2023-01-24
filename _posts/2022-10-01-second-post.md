@@ -5,7 +5,7 @@ description: Traveling after being lockdown in China.
 author: Vicky
 featured: false
 categories: [self care, bali]
-featured_image: /images/zen-studio-3.jpg
+featured_image: https://source.unsplash.com/random?sig=9
 seo:
   title:
   description:

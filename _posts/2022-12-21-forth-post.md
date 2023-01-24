@@ -5,7 +5,7 @@ description: Food around the world
 author: Vicky
 featured: true
 categories: [travel, food]
-featured_image: /images/zen-studio-3.jpg
+featured_image: https://source.unsplash.com/random?sig=9
 seo:
   title:
   description:

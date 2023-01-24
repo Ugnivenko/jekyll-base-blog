@@ -5,7 +5,7 @@ description: Trip to Bali and Java. Amazing time with my beloved friend.
 author: Mike
 featured: true
 categories: [travel, food]
-featured_image: https://www.instituteofcode.com/houdini.jpg
+featured_image: https://source.unsplash.com/random?sig=9
 seo:
   title:
   description:

@@ -2,8 +2,14 @@
 layout: default
 --- 
 
+    {% if page.banner == true %}
+
+    {{ content }}
+
+    {% endif %}
+
 <section class="grid padded">
-    <div class="col-12 center">
+    <div class="col-12 center padded-1">
         <h1> {{ page.category | capitalize }} Posts </h1>
         <p> {{ page.description }}</p>
     </div>

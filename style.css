@@ -1,3 +1,6 @@
+:root {
+   --featured 
+}
 * {
     padding: 0;
     margin: 0;
@@ -11,6 +14,27 @@ section {
    border: 1px solid rgb(186, 184, 184);
 }
 
+/* Typography  */
+
+h2, h3, h4, h5, h6 {
+   line-height: 1.1;
+   margin-bottom: 1rem;
+ }
+ h1 { font-size: 2.2rem; }
+ h2 { font-size: 2rem; }
+ h3 { font-size: 1.8rem; }
+ h4 { font-size: 1.6rem; }
+ h5 { font-size: 1.4rem; }
+ h6 { font-size: 1.2rem; }
+
+p, li {
+   line-height: 1.4; 
+   margin-bottom: 0.5rem;
+   font-size: 1rem;
+ }
+
+a {color: inherit;}
+
 nav a {
    padding: 0.25rem 0.3rem;
    display: inline-block;
@@ -23,18 +47,24 @@ nav a:hover {color: orange;}
     padding: 0;
 }
 
+.bg-dark { background-color: var(--featured);}
+.text-light { color: whitesmoke; } 
+
 .center {text-align: center;}
 .right {text-align: right;}
+.left {text-align: left;}
 
 .padded { padding: 5%;}
 .padded-1 { padding: 1rem; }
 .padded-03 { padding: 0.3rem;}
 
 .padded-b-1 { padding-bottom: 1rem;}
+.padded-b-2 { padding-bottom: 2rem;}
 .padded-t-1 { padding-top: 1rem;}
 
 .margin-b-1 {margin-bottom: 1rem;}
 
+.tall-70 { min-height: 70vh;}
 .tall-80 { min-height: 80vh;}
 .tall-90 { min-height: 90vh;}
 
@@ -42,24 +72,25 @@ nav a:hover {color: orange;}
    text-transform: uppercase;
    background-color: lightgray;
 }
+
 .button {
-   border: 1px solid orange;
+   border-bottom: 1px solid;
    display: inline-block;
-   color: orange;
-   padding: 0.5rem;
-   margin-top: 1.5rem;
+   color: inherit;
+   font-size: 0.9rem;
+   padding-bottom: 0.15rem;
+   margin-top: 0.5rem;
    margin-bottom: 1rem;
    text-decoration: none;
 }
 
 .tag {
-    border: 1px solid;
-    color: grey;
-    border-radius: 3px;
+    /* border: 1px solid; */
+    color: var(--featured);
     display: inline-block;
     margin-top: 1rem;
-    margin-bottom: 1rem;
-    padding: 0.25rem;
+    margin-bottom: 0.6rem;
+    margin-right: 0.4rem;
     background-color: white;
     text-transform: uppercase;
     font-size: 0.8rem;
@@ -119,6 +150,7 @@ nav a:hover {color: orange;}
  .bg-studio { background-image: url(/images/zen-studio-3.jpg);}
  
  .square { padding-bottom: 100%; }
+ .portrait { padding-bottom: 125%; }
  .landscape { padding-bottom: 60%; }
 
  .capped-width-narrow {

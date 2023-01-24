@@ -8,8 +8,8 @@ title: Blog Page
 
     {% for post in site.posts %}
  
-    <div class="col-4_xs-12 padded-1 "> 
-        <div class="card tall-90"> 
+    <div class="col-4_xs-12 padded-1 padded-b-2 "> 
+        <div class="card"> 
         <a href="{{post.url}}" class="card-click "> 
         
             <div class="bg-image square" style="background-image: url('{{post.featured_image}}')"></div>
@@ -20,9 +20,9 @@ title: Blog Page
                 <span class="tag"> {{ item }} </span>
                 {% endfor %}
 
-                <h3> {{post.title}} </h3>
-                <p> {{post.description}} </p>
-                <!-- <a href="{{post.url}}"> Read More </a> -->
+                <h4> {{post.title}} </h4>
+                <!-- <p> {{post.description}} </p> -->
+                <a href="{{post.url}}"> Read More </a>
             </div>
         </a> 
         </div>  
