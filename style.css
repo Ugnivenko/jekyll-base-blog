@@ -69,6 +69,7 @@ nav a:hover {
 .padded-b-1 { padding-bottom: 1rem;}
 .padded-b-2 { padding-bottom: 2rem;}
 .padded-t-1 { padding-top: 1rem;}
+.padded-t-2 { padding-top: 2rem;}
 
 .margin-b-0 {margin-bottom: 0rem;}
 .margin-b-1 {margin-bottom: 1rem;}
@@ -184,7 +185,10 @@ nav a:hover {
     background-size: cover;
     background-position: center;
  }
- .bg-studio { background-image: url(/images/zen-studio-3.jpg);}
+.bg-studio { background-image: url(/images/zen-studio-3.jpg);}
+.bg-hk { background-image: url(/images/HK.jpg);}
+
+.border-white {border: 15px solid white;}
 
  .capped-width-narrow {
    max-width: 1000px;

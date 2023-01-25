@@ -5,6 +5,7 @@ description: Trip to Bali and Java. Amazing time with my beloved friend. Jeserun
 author: Mike
 featured: true
 categories: [travel, food]
+heading: Best restaurants to visit in Hong Kong
 featured_image: https://source.unsplash.com/random?sig=9
 seo:
   title:
@@ -13,9 +14,13 @@ seo:
   keywords:
   hide-from-google: false
 ---
-
-### Best restaurants to visit in Hong Kong 
+ 
 
 Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis nostrum maiores, necessitatibus explicabo cum officiis deserunt ea reprehenderit in quod corporis adipisci voluptatum. Voluptatum rem alias quaerat deleniti minima pariatur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis nostrum 
 
 Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis nostrum maiores, necessitatibus explicabo cum officiis deserunt ea reprehenderit in quod corporis adipisci voluptatum. Voluptatum rem alias quaerat deleniti minima pariatur.
+
+<div class="grid padded-t-1">
+  <div class="col-6 bg-image bg-studio tall-80 border-white"> </div>
+  <div class="col-6 bg-image bg-hk tall-80 border-white"> </div>
+</div>  
