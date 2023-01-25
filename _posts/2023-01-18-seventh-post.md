@@ -20,7 +20,7 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis nostrum maiores
 
 Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis nostrum maiores, necessitatibus explicabo cum officiis deserunt ea reprehenderit in quod corporis adipisci voluptatum. Voluptatum rem alias quaerat deleniti minima pariatur.
 
-<div class="grid padded-t-1">
+<div class="grid padded-t-05">
   <div class="col-6 bg-image bg-studio tall-80 border-white"> </div>
   <div class="col-6 bg-image bg-hk tall-80 border-white"> </div>
 </div>  
