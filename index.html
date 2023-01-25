@@ -1,15 +1,39 @@
 ---
 layout: default
 title: Homepage
+category: spicy
 ---
 
-<section class="padded ">
-   <div class="padded-b-1 center capped-width-narrow"> 
-      <h1 class="padded-b-1">Welcome to homepage!</h1>
+<section class="padded padded-b-1">
+   <div class="center capped-width-narrow"> 
+      <h1> Welcome to homepage!</h1>
       <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum corporis sapiente explicabo cumque beatae exercitationem vitae? Fugit consequuntur tempore temporibus ex, magnam, dolor dolores, error ea dignissimos cupiditate doloribus hic.</p>
    </div>
+</section>
 
-   <div class="grid padded-t-1 center">   
+<!---- Collection for recipes Section ------->
+
+<section class="grid-spaceAround padded tall-70"> 
+
+   <div class="col-6-top padded-t-1"> 
+      <h3> Chinese cuisine </h3>
+      <p class="padded-b-1"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit maiores molestiae dolores. Debitis quam rerum non omnis optio, aut reiciendis at? Nobis repellat sed commodi, ad nihil vero minima voluptate!</p>
+
+      {% assign relevant-recipes = site.recipes | where_exp: "recipe", "recipe.categories contains page.category" %}
+
+      {% for recipe in relevant-recipes %}
+      <a href="{{recipe.url}}" class="recipe"> {{recipe.title}} </a>
+      {% endfor %}
+   </div>
+  
+   <div class="col-4 bg-image" style="background-image: url('https://source.unsplash.com/n7NOMM5qk7I')"></div>
+   
+</section>
+
+
+<!-- Recent Posts Section -->
+<section>
+   <div class="grid center">   
       <div class="col-12 padded-1"> 
          <h2> Recent Posts </h2> 
       </div>
@@ -28,7 +52,7 @@ title: Homepage
             <p> {{ post.description | truncatewords:11 }} </p>
             <a class="button" href="{{post.url}}"> Read More </a>
       </div>
-      
+
   {% endfor %} 
    </div>
 </section>

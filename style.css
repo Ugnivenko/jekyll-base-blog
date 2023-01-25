@@ -46,7 +46,7 @@ nav a {
    text-decoration: none;
 }
 nav a:hover {
-   color: var(--featured);
+   color: #de7400;
 }
 
 [class*="col-"], [class*="col_"], [class~="col"] {
@@ -131,7 +131,16 @@ nav a:hover {
     font-size: 0.8rem;
  }
 
- .recent-posts:hover {color: var(--featured);}
+ .recipe {
+   /* text-decoration: none; */
+   font-size: 1rem;
+   display: block;
+   line-height: 1.2; 
+   margin-bottom: 0.5rem;
+    
+ }
+
+ .recipe:hover {color: #de7400;}
 
 .card {box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;}
 

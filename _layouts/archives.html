@@ -11,9 +11,18 @@ layout: default
     
     {% for post in site.categories[page.category] %}
 
-        {% include post-loop-item-big.html %}
+        {% if page.post-style == big %}
+
+           {% include post-loop-item-big.html %}
+
+    {% else %}
+
+           { % include post-loop-item-square.html %}
+
+        {% endif %}
 
     {% endfor %}
+
 </section>
 
 
