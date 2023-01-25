@@ -4,8 +4,8 @@ title: Homepage
 ---
 
 <section class="padded ">
-   <div class="padded-b-1 center"> 
-      <h1 class="padded-b-1">Welcome to your homepage!</h1>
+   <div class="padded-b-1 center capped-width-narrow"> 
+      <h1 class="padded-b-1">Welcome to homepage!</h1>
       <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum corporis sapiente explicabo cumque beatae exercitationem vitae? Fugit consequuntur tempore temporibus ex, magnam, dolor dolores, error ea dignissimos cupiditate doloribus hic.</p>
    </div>
 
@@ -25,9 +25,10 @@ title: Homepage
          {% endfor %}  
 
             <h3 class="margin-b-1"> {{ post.title }} </h3>
-            <p> {{ post.description | truncatewords:13 }} </p>
+            <p> {{ post.description | truncatewords:11 }} </p>
             <a class="button" href="{{post.url}}"> Read More </a>
       </div>
+      
   {% endfor %} 
    </div>
 </section>

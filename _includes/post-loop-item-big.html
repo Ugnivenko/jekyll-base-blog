@@ -6,15 +6,15 @@
         <div class="bg-image square" style="background-image: url('{{post.featured_image}}')"></div> 
     </a> 
 
-        <div class="padded-1">
+        <div class="padded">
             
             {% for item in post.categories %}
             <span class="tag"> {{ item }} </span>
             {% endfor %}
 
             <h3> {{post.title}} </h3>
-            <p> {{post.description | truncatewords:13 }} </p>
-            <a href="{{post.url}}"> Read More </a>
+            <p> {{post.description | truncatewords:10 }} </p>
+            <!-- <a href="{{post.url}}" class="button"> Read More </a> -->
         </div>
     
     </div>  

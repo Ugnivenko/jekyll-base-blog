@@ -4,11 +4,11 @@ title: Blog Page
 ---
 
 <section class=" center capped-width-narrow padded padded-b-0">  
-        <h1 class=" uppercase "> Heading </h1>
+        <h1 class="uppercase"> Heading </h1>
          <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione quasi a quaerat inventore expedita aperiam reprehenderit cumque tenetur accusanet consectetur adipisicing elit. Ratione quasi a quaerat inventore expedita aperiam reprehenderit cumque tenetur accusantium duc. A! Ratione quasi a quaerat. Ynventore expedita aperiam reprehenderit.</p>
 </section>
 
-<!------------------------ Split blog loop (part 1) ------------------------>
+<!---------- Split blog loop (part 1) ------------------------>
 
 <section class="padded ">
     <div class="capped-width grid-center">
@@ -17,9 +17,9 @@ title: Blog Page
  
     <div class="col-4_xs-12 padded-1 padded-b-2 "> 
         <div class="card"> 
-        <a href="{{post.url}}" class="card-click "> 
-            <div class="bg-image square" style="background-image: url('{{post.featured_image}}')"></div>
-        </a>
+            <a href="{{post.url}}" class="card-click "> 
+                <div class="bg-image square" style="background-image: url('{{post.featured_image}}')"></div>
+            </a>
             <div class="padded-1">
                 
                 {% for item in post.categories %}
@@ -28,7 +28,7 @@ title: Blog Page
 
                 <h4> {{post.title}} </h4>
                 <!-- <p> {{post.description}} </p> -->
-                <a href="{{post.url}}"> Read More </a>
+                <a href="{{post.url}}" class="button"> Read More </a>
             </div>
         </div>  
     </div>
@@ -48,12 +48,13 @@ title: Blog Page
 
 </section> 
 
-<!------------------------ Split blog loop (part 2) ------------------------>
+<!------------ Split blog loop (part 2) ------------------------>
 <section class="padded">
-
     <div class="capped-width grid-center">
 
         {% for post in site.posts limit:6 offset:3 %}
+
+<!-- this include has the same content as the loop above part 1 so we could input that as an include too-->
 
                 {% include post-loop-item-square.html %}
 
@@ -61,14 +62,15 @@ title: Blog Page
 
     </div>
 
+    
 
     <!-- This checks if there are more than 15 blog posts, and if there are shows a link to the full blog archive -->
 
     {% assign post_count = site.posts | size %}
     
-    {% if post_count > 15 %}
-        <div class="center padded">
-            <a class="button" href="/blog-archive"> See More </a>
+    {% if post_count > 6 %}
+        <div class="center padded-t-1">
+            <a class="button-banner" href="/blog-archives"> See More </a>
         </div>
        
     {% endif %}

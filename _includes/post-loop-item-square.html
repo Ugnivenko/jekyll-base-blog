@@ -1,23 +1,22 @@
 
-<div class="col-4_xs-12 padded-1 "> 
 
-    <div class="card ">
-
-    <a href="{{post.url}}" >  
-        <div class="bg-image square" style="background-image: url('{{post.featured_image}}')"></div>
-    </a>  
-
+<div class="col-4_xs-12 padded-1 padded-b-2 "> 
+    <div class="card"> 
+        <a href="{{post.url}}" class="card-click "> 
+            <div class="bg-image square" style="background-image: url('{{post.featured_image}}')"></div>
+        </a>
         <div class="padded-1">
             
             {% for item in post.categories %}
             <span class="tag"> {{ item }} </span>
             {% endfor %}
 
-            <h3> {{post.title}} </h3>
-            <p> {{post.description | truncatewords:13 }} </p>
-            <a href="{{post.url}}"> Read More </a>
+            <h4> {{post.title}} </h4>
+            <!-- <p> {{post.description}} </p> -->
+            <a href="{{post.url}}" class="button"> Read More </a>
         </div>
-    
-    </div> 
-
+    </div>  
 </div>
+
+
+
