@@ -14,9 +14,11 @@ seo:
   hide-from-google: false
 ---
 
-### Adventures in Bali
+### Adventures in Asia
 
 Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis nostrum maiores, necessitatibus explicabo cum officiis deserunt ea reprehenderit in quod corporis adipisci voluptatum. Voluptatum rem alias quaerat deleniti minima pariatur.
+
+<img src="/images/hk.jpg" class="one-half-image"><img src="/images/zen-studio-3.jpg" class="one-half-image">
 
 Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis nostrum maiores, necessitatibus explicabo cum officiis deserunt ea reprehenderit in quod corporis adipisci voluptatum. Voluptatum rem alias quaerat deleniti minima pariatur.
 

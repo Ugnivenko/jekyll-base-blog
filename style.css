@@ -7,6 +7,15 @@
     box-sizing: border-box;
 }
 
+img { 
+   max-width: 100%; 
+   height: auto; 
+}
+
+/* Override default gridlex padding */ 
+[class*=col] { padding: 0; }
+[class*=grid] { margin: 0; }
+
 body { font-family: 'Open Sans', sans-serif;}
 
 header,
@@ -61,8 +70,14 @@ nav a:hover {
 .right {text-align: right;}
 .left {text-align: left;}
 
+.capped-width-narrow {
+   max-width: 1000px;
+   margin: auto;
+}
+
 .padded { padding: 5%;}
 .padded-1 { padding: 1rem; }
+.padded-2 { padding: 2rem; }
 .padded-03 { padding: 0.3rem;}
 
 .padded-b-0 { padding-bottom: 0rem;}
@@ -190,9 +205,17 @@ nav a:hover {
 .bg-studio { background-image: url(/images/zen-studio-3.jpg);}
 .bg-hk { background-image: url(/images/HK.jpg);}
 
-.border-white {border: 15px solid white;}
+.border-white {border: 10px solid white;}
 
- .capped-width-narrow {
-   max-width: 1000px;
-   margin: auto;
+/* Images */
+
+img.one-half-image {
+   display: inline-block;
+   width: calc(50% - 1rem);
+   margin: 0.5rem;
+}
+
+img.wide-image {
+   margin-left: -5%;
+   margin-right: -5%;
 }
