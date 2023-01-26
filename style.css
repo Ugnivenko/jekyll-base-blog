@@ -9,7 +9,6 @@
 
 img { 
    max-width: 100%; 
-   height: auto; 
 }
 
 /* Override default gridlex padding */ 
@@ -213,6 +212,8 @@ img.one-half-image {
    display: inline-block;
    width: calc(50% - 1rem);
    margin: 0.5rem;
+   height: 50vh;
+   object-fit: cover;
 }
 
 img.wide-image {

@@ -1,0 +1,27 @@
+---
+layout: default
+post-style: big 
+--- 
+
+
+<section class="grid padded">
+    <div class="col-12 center padded-1">
+        <h1> {{ page.category | capitalize }} Archive </h1>
+        <!-- <p> {{ page.description }}</p> -->
+    </div>
+    
+    {% for post in site.posts %}
+
+        {% if page.post-style == big %}
+
+           {% include post-loop-item-big.html %}
+
+    {% else %}
+
+           {% include post-loop-item-square.html %}
+
+        {% endif %}
+
+    {% endfor %}
+
+</section>
