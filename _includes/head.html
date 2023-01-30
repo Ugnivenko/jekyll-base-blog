@@ -1,0 +1,35 @@
+
+<!-- The title for SEO & browser tabs -->
+    <title> {{ page.seo.title | default: site.data.site-settings.seo.title }} </title>
+
+    <meta name="description" content="{{ page.seo.description | default: site.data.site-settings.seo.description }}">
+    <meta name="keywords" content="{{ page.seo.keywords | default: site.data.site-settings.seo.keywords }}">
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<!-- Viewport meta tag --> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!--  Social media sharing META Tags ------------>
+    <meta property="og:title" content="{{ page.title | default: site.data.site-settings.seo.title }}">
+    <meta property="og:description" content="{{ page.seo.description | default: site.data.site-settings.seo.description }}"> 
+    <meta property="og:image" content="{{ page.seo.social_image | default: site.data.site-settings.seo.social_image }}">
+    <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+    <meta name="twitter:card" content="{{ page.seo.twitter_card | default: site.data.site-settings.seo.twitter_card }}">
+    <meta name="twitter:description" content=" {{ page.seo.twitter_description | default: site.data.site-settings.social.twitter_description }} ">
+    <meta name="og:site_name" content="{{ site.data.site-settings.seo.site_name }}">
+    <link rel="icon" type="image/png" href="{{ site.data.site-settings.seo.favicon_image }}">
+
+    <!-- Gridlex -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gridlex/2.7.1/gridlex.min.css">
+    
+<!-- My own custom stylesheet -->
+    <link rel="stylesheet" type="text/css" href="/style.css" />
+
+
+{% if page.seo.hide-from-google == true %}
+    <meta name="robots" content="noindex, nofollow">
+{% else %}
+    <meta name="robots" content="index, follow">
+{% endif %}

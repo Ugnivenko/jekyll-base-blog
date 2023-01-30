@@ -1,3 +1,16 @@
+seo:
+  site_name: Beautiful Asia 
+  title: Traveling in Asia Blog
+  description: descovering asian cultures, food and customs
+  keywords: traveling in Asia
+  social_image: /images/HK.jpg
+  author:
+  favorite_image: 
+social:
+  instagram_username:
+  facebook_url:
+  twitter_username:
+  twitter_description:
 design:
   featured_color: '#80505b'
   accent_color: '#de7400'
