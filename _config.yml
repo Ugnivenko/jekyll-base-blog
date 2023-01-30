@@ -10,6 +10,7 @@ collections:
 url: "the_sites_url_here.com"
 plugins:
   - jekyll-sitemap
+  - jekyll-picture-tag
 
 _comments:
   title: Max 70 characters
