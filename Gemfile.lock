@@ -84,7 +84,7 @@ PLATFORMS
 DEPENDENCIES
   jekyll
   jekyll-sitemap
-  jekyll_picture_tag
+  jekyll_picture_tag (~> 2.0)
 
 BUNDLED WITH
    2.4.3

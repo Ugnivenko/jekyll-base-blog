@@ -12,18 +12,33 @@ seo:
   hide-from-google: false
 ---
 
-<section class="padded padded-b-1">
-   <div class="center capped-width-narrow"> 
+<section class="grid padded-b-1 tall-70">
+   <div class="col-7_md-12-middle center padded capped-width-narrow"> 
       <h1> Welcome to homepage!</h1>
       <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum corporis sapiente explicabo cumque beatae exercitationem vitae? Fugit consequuntur tempore temporibus ex, magnam, dolor dolores, error ea dignissimos cupiditate doloribus hic.</p>
    </div>
+
+   <picture class="col-5_md-12 center ">
+      <source 
+            media="(min-width: 64em)"
+            srcset="images/rice-field.jpg">
+      <source 
+            media="(min-width: 48em)"
+            srcset="images/asia.jpg" class="img-fit">
+      <source 
+            media="(min-width: 36em)"
+            srcset="images/gate.jpg">
+      <img src="/images/zen-studio-3.jpg" class="img-fit" alt="Bali scenery">
+   </picture>
+  
+
 </section>
 
 <!---- Collection for recipes Section ------->
 
-<section class="grid-spaceAround padded tall-70"> 
+<section class="grid padded tall-70"> 
 
-   <div class="col-6-middle padded-t-1"> 
+   <div class="col-7-middle padded-t-1"> 
       <h3> Chinese cuisine </h3>
       <p class="padded-b-1"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit maiores molestiae dolores. Debitis quam rerum non omnis optio, aut reiciendis at? Nobis repellat sed commodi, ad nihil vero minima voluptate!</p>
 
@@ -34,7 +49,7 @@ seo:
       {% endfor %}
    </div>
   
-   <div class="col-4 bg-image" style="background-image: url('https://source.unsplash.com/n7NOMM5qk7I')"></div>
+   <div class="col-5 bg-image" style="background-image: url('https://source.unsplash.com/n7NOMM5qk7I')"></div>
    
 </section>
 

@@ -1,0 +1,10 @@
+media_queries:
+  mobile: 'max-width: 768px'
+
+presets:
+  default:
+    widths: [768, 1024, 1280]
+    formats: [webp, original]
+    sizes:
+      mobile: 80vw
+    size: 600px
