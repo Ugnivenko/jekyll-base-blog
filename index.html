@@ -12,13 +12,14 @@ seo:
   hide-from-google: false
 ---
 
-<section class="grid padded-b-1 tall-70">
-   <div class="col-7_md-12-middle center padded capped-width-narrow"> 
-      <h1> Welcome to homepage!</h1>
-      <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum corporis sapiente explicabo cumque beatae exercitationem vitae? Fugit consequuntur tempore temporibus ex, magnam, dolor dolores, error ea dignissimos cupiditate doloribus hic.</p>
+<section class="grid bg-gate bg-image bg-overlay text-light tall-80 ">
+   <div class="col-12 margin-t-lg center  capped-width-narrow"> 
+      <h1> Alluring Asia </h1>
+      <p> Travel blog.</p>
    </div>
 
-   <picture class="col-5_md-12 center ">
+   <!-- This is how site optimization can be done by using responsive img picture tag -->
+   <!-- <picture class="col-5_md-12 center ">
       <source 
             media="(min-width: 64em)"
             srcset="images/rice-field.jpg">
@@ -29,18 +30,19 @@ seo:
             media="(min-width: 36em)"
             srcset="images/gate.jpg">
       <img src="/images/zen-studio-3.jpg" class="img-fit" alt="Bali scenery">
-   </picture>
+   </picture> -->
   
 
 </section>
 
 <!---- Collection for recipes Section ------->
 
-<section class="grid-spaceAround padded tall-70"> 
+<section class="grid-spaceAround padded tall-90"> 
 
    <div class="col-6-middle padded-t-1"> 
       <h3> Chinese cuisine </h3>
-      <p class="padded-b-1"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit maiores molestiae dolores. Debitis quam rerum non omnis optio, aut reiciendis at? Nobis repellat sed commodi, ad nihil vero minima voluptate!</p>
+      <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit maiores molestiae dolores. Debitis quam rerum non omnis optio, aut reiciendis at? Nobis repellat sed commodi, ad nihil vero minima voluptate!</p>
+      <p class="padded-b-1"> Spicy food lovers will find these traditinal chinese dishes fire! Learn more about nutritional facts and their recipes </p>
 
       {% assign relevant-recipes = site.recipes | where_exp: "recipe", "recipe.categories contains page.category" %}
 

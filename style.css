@@ -96,6 +96,7 @@ nav a:hover {
 .margin-b-0 {margin-bottom: 0rem;}
 .margin-b-1 {margin-bottom: 1rem;}
 .margin-t-1 {margin-top: 1rem;}
+.margin-t-lg {margin-top: 10em;}
 
 .tall-70 { min-height: 70vh;}
 .tall-80 { min-height: 80vh;}
@@ -207,10 +208,40 @@ nav a:hover {
     background-size: cover;
     background-position: center;
  }
+.bg-gate { 
+   background-image: url(/images/gate.jpg);
+   background-position: 50% 25%;
+}
 .bg-studio { background-image: url(/images/zen-studio-3.jpg);}
 .bg-hk { background-image: url(/images/HK.jpg);}
+.bg-asia { background-image: url(/images/asia.jpg);}
 
 .border-white {border: 10px solid white;}
+
+.bg-gate h1 { font-size: 5rem;}
+.bg-gate p { font-size: 2rem;}
+
+.bg-overlay { position: relative; }
+.bg-overlay::before {
+   content: ""; 
+   position: absolute;
+   top: 0;
+   left: 0;
+    bottom: 0;
+    right: 0;
+   background-color: rgba(0,0,0,0.5);
+ }
+.bg-overlay > * { position: relative; }
+ 
+.bg-overlay-teal::before {
+   background-color: rgba(0, 128, 128,0.5);
+ }
+ 
+ /* Gradient Overlay  */ 
+ .bg-overlay-gradient::before { 
+   background: linear-gradient(0, rgba(0,0,0,0.7), rgba(0,0,0,0));
+ } 
+ 
 
 /* Images */
 
