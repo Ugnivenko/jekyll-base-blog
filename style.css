@@ -233,9 +233,6 @@ nav a:hover {
  }
 .bg-overlay > * { position: relative; }
  
-.bg-overlay-teal::before {
-   background-color: rgba(0, 128, 128,0.5);
- }
  
  /* Gradient Overlay  */ 
  .bg-overlay-gradient::before { 
