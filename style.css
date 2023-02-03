@@ -271,16 +271,20 @@ img.wide-image {
 #cookie-notice a {
    display: inline-block;
    cursor: pointer;
-   margin-left: 0.5rem;
+   margin-left: 0.6rem;
 }
 #cookie-notice .button-subtle {
  opacity: 0.8;
+ padding-bottom: 0.15rem;
+ margin-top: 0.5rem;
+ margin-bottom: 1rem;
+ text-decoration: none;
 }
 #close-cookie-banner {
  padding: 1rem;
  cursor: pointer;
  font-size: 0.8rem;
- opacity: 0.5
+ opacity: 0.6
 }
 
 
