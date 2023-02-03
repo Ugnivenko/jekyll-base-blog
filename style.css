@@ -261,8 +261,8 @@ img.wide-image {
    display: none;
    text-align: center;
    position: fixed;
-   left: 1rem;
-   right: 1rem;
+   left: 0;
+   right: 0;
    bottom: 0;
    width: calc(100% - 2rem);
    background: #222;
